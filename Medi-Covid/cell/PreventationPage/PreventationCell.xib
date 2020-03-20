@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Taviraj-Bold.ttf">
+            <string>Taviraj-Bold</string>
+        </array>
+        <array key="Taviraj-Regular.ttf">
+            <string>Taviraj-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PreventationCell" rowHeight="347" id="KGk-i7-Jjw" customClass="PreventationCell" customModule="Medi_Covid" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="347"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="398" height="347"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TLC-b5-eZz">
+                        <rect key="frame" x="0.0" y="0.0" width="398" height="347"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Thairath" translatesAutoresizingMaskIntoConstraints="NO" id="8QR-TZ-wrc">
+                                <rect key="frame" x="16" y="16" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="0bx-Al-7zb"/>
+                                    <constraint firstAttribute="width" constant="60" id="wKa-CG-5jc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Two members of House test positive for COVID-19" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sm1-Jn-Umg">
+                                <rect key="frame" x="92" y="16" width="290" height="58.5"/>
+                                <fontDescription key="fontDescription" name="Taviraj-Bold" family="Taviraj" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgd-Mp-2cd">
+                                <rect key="frame" x="92" y="78.5" width="290" height="222"/>
+                                <mutableString key="text">Two members of the House of Representatives have tested positive for the coronavirus illness COVID-19 and are self-quarantining, the lawmakers said Wednesday.
+
+Reps. Mario Diaz-Balart, R-Fla., and Ben McAdams, D-Utah, are the first two members of Congress who have said they tested positive for COVID-19.
+
+Diaz-Balart was the first to make the announcement Wednesday. His office said in a statement that after votes on Friday, he self-quarantined in Washington, D.C., and decided not to return home because his wife has a pre-existing condition.</mutableString>
+                                <fontDescription key="fontDescription" name="Taviraj-Regular" family="Taviraj" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.25" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bNV-UK-jrr">
+                                <rect key="frame" x="16" y="76" width="60" height="224.5"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sm1-Jn-Umg" secondAttribute="trailing" constant="16" id="7mm-M0-Ir7"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Bgd-Mp-2cd" secondAttribute="bottom" constant="16" id="7rD-EM-55O"/>
+                            <constraint firstItem="8QR-TZ-wrc" firstAttribute="top" secondItem="TLC-b5-eZz" secondAttribute="top" constant="16" id="AYv-kc-CrV"/>
+                            <constraint firstItem="Bgd-Mp-2cd" firstAttribute="leading" secondItem="sm1-Jn-Umg" secondAttribute="leading" id="DaW-RY-x70"/>
+                            <constraint firstItem="Bgd-Mp-2cd" firstAttribute="top" secondItem="sm1-Jn-Umg" secondAttribute="bottom" constant="4" id="NJp-kS-HVr"/>
+                            <constraint firstItem="8QR-TZ-wrc" firstAttribute="leading" secondItem="TLC-b5-eZz" secondAttribute="leading" constant="16" id="SYM-tJ-W0e"/>
+                            <constraint firstItem="bNV-UK-jrr" firstAttribute="leading" secondItem="TLC-b5-eZz" secondAttribute="leading" constant="16" id="UuZ-Gl-Ljm"/>
+                            <constraint firstItem="sm1-Jn-Umg" firstAttribute="leading" secondItem="8QR-TZ-wrc" secondAttribute="trailing" constant="16" id="Xh1-9i-aPi"/>
+                            <constraint firstItem="sm1-Jn-Umg" firstAttribute="top" secondItem="8QR-TZ-wrc" secondAttribute="top" id="bb1-o8-mvj"/>
+                            <constraint firstItem="bNV-UK-jrr" firstAttribute="width" secondItem="8QR-TZ-wrc" secondAttribute="width" id="cBB-wq-5ii"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="8QR-TZ-wrc" secondAttribute="bottom" constant="16" id="d8h-sK-NzH"/>
+                            <constraint firstItem="bNV-UK-jrr" firstAttribute="bottom" secondItem="Bgd-Mp-2cd" secondAttribute="bottom" id="fBx-rk-A8f"/>
+                            <constraint firstAttribute="trailing" secondItem="Bgd-Mp-2cd" secondAttribute="trailing" constant="16" id="uwn-L2-xWH"/>
+                            <constraint firstItem="bNV-UK-jrr" firstAttribute="top" secondItem="8QR-TZ-wrc" secondAttribute="bottom" id="xBw-Lo-W0m"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="TLC-b5-eZz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="5Sp-BX-0p0"/>
+                    <constraint firstItem="TLC-b5-eZz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Mkg-Bl-l4i"/>
+                    <constraint firstAttribute="bottom" secondItem="TLC-b5-eZz" secondAttribute="bottom" id="kT0-4F-2iN"/>
+                    <constraint firstAttribute="trailing" secondItem="TLC-b5-eZz" secondAttribute="trailing" id="xy1-AD-T8f"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="decriptionLabel" destination="Bgd-Mp-2cd" id="uln-cv-aMy"/>
+                <outlet property="imageBannerTitle" destination="8QR-TZ-wrc" id="fYX-cL-eNV"/>
+                <outlet property="titleLabel" destination="sm1-Jn-Umg" id="dTr-OD-VbD"/>
+            </connections>
+            <point key="canvasLocation" x="194.20289855072465" y="245.42410714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Thairath" width="225" height="225"/>
+    </resources>
+</document>

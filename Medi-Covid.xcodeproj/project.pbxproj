@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A2549E6242324780090DB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2549E5242324780090DB46 /* AppDelegate.swift */; };
+		8A2549EA242324780090DB46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2549E9242324780090DB46 /* ViewController.swift */; };
+		8A2549ED242324780090DB46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2549EB242324780090DB46 /* Main.storyboard */; };
+		8A2549EF2423247E0090DB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A2549EE2423247E0090DB46 /* Assets.xcassets */; };
+		8A2549F22423247E0090DB46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2549F02423247E0090DB46 /* LaunchScreen.storyboard */; };
+		8A2549FD2423247F0090DB46 /* Medi_CovidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2549FC2423247F0090DB46 /* Medi_CovidTests.swift */; };
+		8A254A082423247F0090DB46 /* Medi_CovidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A254A072423247F0090DB46 /* Medi_CovidUITests.swift */; };
+		8A254A19242326B50090DB46 /* PreventationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A254A17242326B50090DB46 /* PreventationCell.swift */; };
+		8A254A1A242326B50090DB46 /* PreventationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A254A18242326B50090DB46 /* PreventationCell.xib */; };
+		8A254A1D24232B180090DB46 /* PreventationHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A254A1B24232B180090DB46 /* PreventationHeaderCell.swift */; };
+		8A254A1E24232B180090DB46 /* PreventationHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A254A1C24232B180090DB46 /* PreventationHeaderCell.xib */; };
+		8A254A2C242335800090DB46 /* StatisticStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A254A23242335800090DB46 /* StatisticStoryboard.storyboard */; };
+		8A254A31242335800090DB46 /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A254A28242335800090DB46 /* StatisticViewController.swift */; };
+		8A254A36242339860090DB46 /* NWTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A254A35242339860090DB46 /* NWTabbar.swift */; };
+		8A254A39242368AF0090DB46 /* StatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A254A38242368AF0090DB46 /* StatModel.swift */; };
+		8A254A3D2423700E0090DB46 /* StatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A254A3B2423700E0090DB46 /* StatCell.swift */; };
+		8A254A3E2423700E0090DB46 /* StatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A254A3C2423700E0090DB46 /* StatCell.xib */; };
+		8A254A4024237E3B0090DB46 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A254A3F24237E3B0090DB46 /* NewsModel.swift */; };
+		8A254A70242382200090DB46 /* Taviraj-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A254A6A242382200090DB46 /* Taviraj-Black.ttf */; };
+		8A254A71242382200090DB46 /* Taviraj-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A254A6B242382200090DB46 /* Taviraj-Medium.ttf */; };
+		8A254A72242382200090DB46 /* Taviraj-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A254A6C242382200090DB46 /* Taviraj-Thin.ttf */; };
+		8A254A73242382200090DB46 /* Taviraj-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A254A6D242382200090DB46 /* Taviraj-Bold.ttf */; };
+		8A254A74242382200090DB46 /* Taviraj-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A254A6E242382200090DB46 /* Taviraj-Regular.ttf */; };
+		8A254A75242382200090DB46 /* Taviraj-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A254A6F242382200090DB46 /* Taviraj-Light.ttf */; };
+		8A254A7724238A890090DB46 /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A254A7624238A890090DB46 /* LoadingScreenViewController.swift */; };
+		8A254A7924239A5B0090DB46 /* Ext+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A254A7824239A5B0090DB46 /* Ext+String.swift */; };
+		C2421A0B9B6CFA13E30EB6D2 /* Pods_Medi_CovidTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01581A63810662A9EABED2B5 /* Pods_Medi_CovidTests.framework */; };
+		CB297410F7A8637C537035AA /* Pods_Medi_Covid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEE3F88675A3243FCDEB365 /* Pods_Medi_Covid.framework */; };
+		E29384BA5D709405BCBAEA4A /* Pods_Medi_Covid_Medi_CovidUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC806D0ECD52B601536A7942 /* Pods_Medi_Covid_Medi_CovidUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A2549F92423247F0090DB46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A2549DA242324780090DB46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A2549E1242324780090DB46;
+			remoteInfo = "Medi-Covid";
+		};
+		8A254A042423247F0090DB46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A2549DA242324780090DB46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A2549E1242324780090DB46;
+			remoteInfo = "Medi-Covid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01581A63810662A9EABED2B5 /* Pods_Medi_CovidTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medi_CovidTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25233AA6BD72F2E4D64FE4DB /* Pods-Medi-CovidTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medi-CovidTests.release.xcconfig"; path = "Target Support Files/Pods-Medi-CovidTests/Pods-Medi-CovidTests.release.xcconfig"; sourceTree = "<group>"; };
+		318E56F262D18399B2C16431 /* Pods-Medi-Covid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medi-Covid.debug.xcconfig"; path = "Target Support Files/Pods-Medi-Covid/Pods-Medi-Covid.debug.xcconfig"; sourceTree = "<group>"; };
+		509FD4351ACF790602BBD25F /* Pods-Medi-CovidTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medi-CovidTests.debug.xcconfig"; path = "Target Support Files/Pods-Medi-CovidTests/Pods-Medi-CovidTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61158AAA380FEDA03119B603 /* Pods-Medi-Covid-Medi-CovidUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medi-Covid-Medi-CovidUITests.release.xcconfig"; path = "Target Support Files/Pods-Medi-Covid-Medi-CovidUITests/Pods-Medi-Covid-Medi-CovidUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A2549E2242324780090DB46 /* Medi-Covid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medi-Covid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2549E5242324780090DB46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A2549E9242324780090DB46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A2549EC242324780090DB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A2549EE2423247E0090DB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A2549F12423247E0090DB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A2549F32423247F0090DB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A2549F82423247F0090DB46 /* Medi-CovidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medi-CovidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2549FC2423247F0090DB46 /* Medi_CovidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medi_CovidTests.swift; sourceTree = "<group>"; };
+		8A2549FE2423247F0090DB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A254A032423247F0090DB46 /* Medi-CovidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medi-CovidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A254A072423247F0090DB46 /* Medi_CovidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medi_CovidUITests.swift; sourceTree = "<group>"; };
+		8A254A092423247F0090DB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A254A17242326B50090DB46 /* PreventationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventationCell.swift; sourceTree = "<group>"; };
+		8A254A18242326B50090DB46 /* PreventationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreventationCell.xib; sourceTree = "<group>"; };
+		8A254A1B24232B180090DB46 /* PreventationHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventationHeaderCell.swift; sourceTree = "<group>"; };
+		8A254A1C24232B180090DB46 /* PreventationHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreventationHeaderCell.xib; sourceTree = "<group>"; };
+		8A254A23242335800090DB46 /* StatisticStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StatisticStoryboard.storyboard; sourceTree = "<group>"; };
+		8A254A28242335800090DB46 /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		8A254A35242339860090DB46 /* NWTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWTabbar.swift; sourceTree = "<group>"; };
+		8A254A38242368AF0090DB46 /* StatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatModel.swift; sourceTree = "<group>"; };
+		8A254A3B2423700E0090DB46 /* StatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCell.swift; sourceTree = "<group>"; };
+		8A254A3C2423700E0090DB46 /* StatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatCell.xib; sourceTree = "<group>"; };
+		8A254A3F24237E3B0090DB46 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		8A254A6A242382200090DB46 /* Taviraj-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Taviraj-Black.ttf"; sourceTree = "<group>"; };
+		8A254A6B242382200090DB46 /* Taviraj-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Taviraj-Medium.ttf"; sourceTree = "<group>"; };
+		8A254A6C242382200090DB46 /* Taviraj-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Taviraj-Thin.ttf"; sourceTree = "<group>"; };
+		8A254A6D242382200090DB46 /* Taviraj-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Taviraj-Bold.ttf"; sourceTree = "<group>"; };
+		8A254A6E242382200090DB46 /* Taviraj-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Taviraj-Regular.ttf"; sourceTree = "<group>"; };
+		8A254A6F242382200090DB46 /* Taviraj-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Taviraj-Light.ttf"; sourceTree = "<group>"; };
+		8A254A7624238A890090DB46 /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
+		8A254A7824239A5B0090DB46 /* Ext+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+String.swift"; sourceTree = "<group>"; };
+		8B2F11AB6F5023E8CF3264F9 /* Pods-Medi-Covid-Medi-CovidUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medi-Covid-Medi-CovidUITests.debug.xcconfig"; path = "Target Support Files/Pods-Medi-Covid-Medi-CovidUITests/Pods-Medi-Covid-Medi-CovidUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F999A3BA521C6DD1AC2D31D /* Pods-Medi-Covid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medi-Covid.release.xcconfig"; path = "Target Support Files/Pods-Medi-Covid/Pods-Medi-Covid.release.xcconfig"; sourceTree = "<group>"; };
+		9AEE3F88675A3243FCDEB365 /* Pods_Medi_Covid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medi_Covid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC806D0ECD52B601536A7942 /* Pods_Medi_Covid_Medi_CovidUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medi_Covid_Medi_CovidUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A2549DF242324780090DB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB297410F7A8637C537035AA /* Pods_Medi_Covid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2549F52423247F0090DB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2421A0B9B6CFA13E30EB6D2 /* Pods_Medi_CovidTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A254A002423247F0090DB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29384BA5D709405BCBAEA4A /* Pods_Medi_Covid_Medi_CovidUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A7DB8CDEC72B76BBA04797A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE3F88675A3243FCDEB365 /* Pods_Medi_Covid.framework */,
+				BC806D0ECD52B601536A7942 /* Pods_Medi_Covid_Medi_CovidUITests.framework */,
+				01581A63810662A9EABED2B5 /* Pods_Medi_CovidTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A9CAB237858724FE2058E3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				318E56F262D18399B2C16431 /* Pods-Medi-Covid.debug.xcconfig */,
+				8F999A3BA521C6DD1AC2D31D /* Pods-Medi-Covid.release.xcconfig */,
+				8B2F11AB6F5023E8CF3264F9 /* Pods-Medi-Covid-Medi-CovidUITests.debug.xcconfig */,
+				61158AAA380FEDA03119B603 /* Pods-Medi-Covid-Medi-CovidUITests.release.xcconfig */,
+				509FD4351ACF790602BBD25F /* Pods-Medi-CovidTests.debug.xcconfig */,
+				25233AA6BD72F2E4D64FE4DB /* Pods-Medi-CovidTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A2549D9242324780090DB46 = {
+			isa = PBXGroup;
+			children = (
+				8A2549E4242324780090DB46 /* Medi-Covid */,
+				8A2549FB2423247F0090DB46 /* Medi-CovidTests */,
+				8A254A062423247F0090DB46 /* Medi-CovidUITests */,
+				8A2549E3242324780090DB46 /* Products */,
+				7A9CAB237858724FE2058E3C /* Pods */,
+				0A7DB8CDEC72B76BBA04797A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A2549E3242324780090DB46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A2549E2242324780090DB46 /* Medi-Covid.app */,
+				8A2549F82423247F0090DB46 /* Medi-CovidTests.xctest */,
+				8A254A032423247F0090DB46 /* Medi-CovidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A2549E4242324780090DB46 /* Medi-Covid */ = {
+			isa = PBXGroup;
+			children = (
+				8A254A22242335670090DB46 /* Statistic */,
+				8A254A1F242334F30090DB46 /* util */,
+				8A254A15242326880090DB46 /* cell */,
+				8A2549E5242324780090DB46 /* AppDelegate.swift */,
+				8A2549E9242324780090DB46 /* ViewController.swift */,
+				8A2549EB242324780090DB46 /* Main.storyboard */,
+				8A2549EE2423247E0090DB46 /* Assets.xcassets */,
+				8A2549F02423247E0090DB46 /* LaunchScreen.storyboard */,
+				8A254A69242382200090DB46 /* Font */,
+				8A2549F32423247F0090DB46 /* Info.plist */,
+			);
+			path = "Medi-Covid";
+			sourceTree = "<group>";
+		};
+		8A2549FB2423247F0090DB46 /* Medi-CovidTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A2549FC2423247F0090DB46 /* Medi_CovidTests.swift */,
+				8A2549FE2423247F0090DB46 /* Info.plist */,
+			);
+			path = "Medi-CovidTests";
+			sourceTree = "<group>";
+		};
+		8A254A062423247F0090DB46 /* Medi-CovidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A254A072423247F0090DB46 /* Medi_CovidUITests.swift */,
+				8A254A092423247F0090DB46 /* Info.plist */,
+			);
+			path = "Medi-CovidUITests";
+			sourceTree = "<group>";
+		};
+		8A254A15242326880090DB46 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				8A254A3A24236FEF0090DB46 /* StatPage */,
+				8A254A162423268D0090DB46 /* PreventationPage */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		8A254A162423268D0090DB46 /* PreventationPage */ = {
+			isa = PBXGroup;
+			children = (
+				8A254A17242326B50090DB46 /* PreventationCell.swift */,
+				8A254A18242326B50090DB46 /* PreventationCell.xib */,
+				8A254A1B24232B180090DB46 /* PreventationHeaderCell.swift */,
+				8A254A1C24232B180090DB46 /* PreventationHeaderCell.xib */,
+			);
+			path = PreventationPage;
+			sourceTree = "<group>";
+		};
+		8A254A1F242334F30090DB46 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				8A254A35242339860090DB46 /* NWTabbar.swift */,
+				8A254A7624238A890090DB46 /* LoadingScreenViewController.swift */,
+				8A254A7824239A5B0090DB46 /* Ext+String.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		8A254A22242335670090DB46 /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				8A254A37242368A00090DB46 /* model */,
+				8A254A23242335800090DB46 /* StatisticStoryboard.storyboard */,
+				8A254A28242335800090DB46 /* StatisticViewController.swift */,
+			);
+			path = Statistic;
+			sourceTree = "<group>";
+		};
+		8A254A37242368A00090DB46 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8A254A38242368AF0090DB46 /* StatModel.swift */,
+				8A254A3F24237E3B0090DB46 /* NewsModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		8A254A3A24236FEF0090DB46 /* StatPage */ = {
+			isa = PBXGroup;
+			children = (
+				8A254A3B2423700E0090DB46 /* StatCell.swift */,
+				8A254A3C2423700E0090DB46 /* StatCell.xib */,
+			);
+			path = StatPage;
+			sourceTree = "<group>";
+		};
+		8A254A69242382200090DB46 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8A254A6A242382200090DB46 /* Taviraj-Black.ttf */,
+				8A254A6B242382200090DB46 /* Taviraj-Medium.ttf */,
+				8A254A6C242382200090DB46 /* Taviraj-Thin.ttf */,
+				8A254A6D242382200090DB46 /* Taviraj-Bold.ttf */,
+				8A254A6E242382200090DB46 /* Taviraj-Regular.ttf */,
+				8A254A6F242382200090DB46 /* Taviraj-Light.ttf */,
+			);
+			path = Font;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A2549E1242324780090DB46 /* Medi-Covid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A254A0C2423247F0090DB46 /* Build configuration list for PBXNativeTarget "Medi-Covid" */;
+			buildPhases = (
+				46808E8FFB9DD4C6DFF5EE9F /* [CP] Check Pods Manifest.lock */,
+				8A2549DE242324780090DB46 /* Sources */,
+				8A2549DF242324780090DB46 /* Frameworks */,
+				8A2549E0242324780090DB46 /* Resources */,
+				B49B62D2E679C46F7F613B02 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medi-Covid";
+			productName = "Medi-Covid";
+			productReference = 8A2549E2242324780090DB46 /* Medi-Covid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A2549F72423247F0090DB46 /* Medi-CovidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A254A0F2423247F0090DB46 /* Build configuration list for PBXNativeTarget "Medi-CovidTests" */;
+			buildPhases = (
+				193D80A0FFEE7B9BD7BD6009 /* [CP] Check Pods Manifest.lock */,
+				8A2549F42423247F0090DB46 /* Sources */,
+				8A2549F52423247F0090DB46 /* Frameworks */,
+				8A2549F62423247F0090DB46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A2549FA2423247F0090DB46 /* PBXTargetDependency */,
+			);
+			name = "Medi-CovidTests";
+			productName = "Medi-CovidTests";
+			productReference = 8A2549F82423247F0090DB46 /* Medi-CovidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A254A022423247F0090DB46 /* Medi-CovidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A254A122423247F0090DB46 /* Build configuration list for PBXNativeTarget "Medi-CovidUITests" */;
+			buildPhases = (
+				34DBD445A3331F11EA6C726C /* [CP] Check Pods Manifest.lock */,
+				8A2549FF2423247F0090DB46 /* Sources */,
+				8A254A002423247F0090DB46 /* Frameworks */,
+				8A254A012423247F0090DB46 /* Resources */,
+				3F58C185E1841D7B6FDDBC90 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A254A052423247F0090DB46 /* PBXTargetDependency */,
+			);
+			name = "Medi-CovidUITests";
+			productName = "Medi-CovidUITests";
+			productReference = 8A254A032423247F0090DB46 /* Medi-CovidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A2549DA242324780090DB46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Nawin Phunsawat";
+				TargetAttributes = {
+					8A2549E1242324780090DB46 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8A2549F72423247F0090DB46 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8A2549E1242324780090DB46;
+					};
+					8A254A022423247F0090DB46 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8A2549E1242324780090DB46;
+					};
+				};
+			};
+			buildConfigurationList = 8A2549DD242324780090DB46 /* Build configuration list for PBXProject "Medi-Covid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A2549D9242324780090DB46;
+			productRefGroup = 8A2549E3242324780090DB46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A2549E1242324780090DB46 /* Medi-Covid */,
+				8A2549F72423247F0090DB46 /* Medi-CovidTests */,
+				8A254A022423247F0090DB46 /* Medi-CovidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A2549E0242324780090DB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A254A70242382200090DB46 /* Taviraj-Black.ttf in Resources */,
+				8A254A1E24232B180090DB46 /* PreventationHeaderCell.xib in Resources */,
+				8A254A3E2423700E0090DB46 /* StatCell.xib in Resources */,
+				8A254A72242382200090DB46 /* Taviraj-Thin.ttf in Resources */,
+				8A254A75242382200090DB46 /* Taviraj-Light.ttf in Resources */,
+				8A254A1A242326B50090DB46 /* PreventationCell.xib in Resources */,
+				8A254A71242382200090DB46 /* Taviraj-Medium.ttf in Resources */,
+				8A2549F22423247E0090DB46 /* LaunchScreen.storyboard in Resources */,
+				8A2549EF2423247E0090DB46 /* Assets.xcassets in Resources */,
+				8A254A2C242335800090DB46 /* StatisticStoryboard.storyboard in Resources */,
+				8A254A73242382200090DB46 /* Taviraj-Bold.ttf in Resources */,
+				8A2549ED242324780090DB46 /* Main.storyboard in Resources */,
+				8A254A74242382200090DB46 /* Taviraj-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2549F62423247F0090DB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A254A012423247F0090DB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		193D80A0FFEE7B9BD7BD6009 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Medi-CovidTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34DBD445A3331F11EA6C726C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Medi-Covid-Medi-CovidUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F58C185E1841D7B6FDDBC90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medi-Covid-Medi-CovidUITests/Pods-Medi-Covid-Medi-CovidUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medi-Covid-Medi-CovidUITests/Pods-Medi-Covid-Medi-CovidUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Medi-Covid-Medi-CovidUITests/Pods-Medi-Covid-Medi-CovidUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46808E8FFB9DD4C6DFF5EE9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Medi-Covid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B49B62D2E679C46F7F613B02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medi-Covid/Pods-Medi-Covid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medi-Covid/Pods-Medi-Covid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Medi-Covid/Pods-Medi-Covid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A2549DE242324780090DB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A254A31242335800090DB46 /* StatisticViewController.swift in Sources */,
+				8A254A39242368AF0090DB46 /* StatModel.swift in Sources */,
+				8A254A19242326B50090DB46 /* PreventationCell.swift in Sources */,
+				8A254A4024237E3B0090DB46 /* NewsModel.swift in Sources */,
+				8A254A7924239A5B0090DB46 /* Ext+String.swift in Sources */,
+				8A254A1D24232B180090DB46 /* PreventationHeaderCell.swift in Sources */,
+				8A2549EA242324780090DB46 /* ViewController.swift in Sources */,
+				8A254A3D2423700E0090DB46 /* StatCell.swift in Sources */,
+				8A254A7724238A890090DB46 /* LoadingScreenViewController.swift in Sources */,
+				8A2549E6242324780090DB46 /* AppDelegate.swift in Sources */,
+				8A254A36242339860090DB46 /* NWTabbar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2549F42423247F0090DB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2549FD2423247F0090DB46 /* Medi_CovidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2549FF2423247F0090DB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A254A082423247F0090DB46 /* Medi_CovidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A2549FA2423247F0090DB46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A2549E1242324780090DB46 /* Medi-Covid */;
+			targetProxy = 8A2549F92423247F0090DB46 /* PBXContainerItemProxy */;
+		};
+		8A254A052423247F0090DB46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A2549E1242324780090DB46 /* Medi-Covid */;
+			targetProxy = 8A254A042423247F0090DB46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A2549EB242324780090DB46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2549EC242324780090DB46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A2549F02423247E0090DB46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2549F12423247E0090DB46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A254A0A2423247F0090DB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A254A0B2423247F0090DB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A254A0D2423247F0090DB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318E56F262D18399B2C16431 /* Pods-Medi-Covid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHP86FCWXM;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				INFOPLIST_FILE = "Medi-Covid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nawinz.Medi-Covid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A254A0E2423247F0090DB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F999A3BA521C6DD1AC2D31D /* Pods-Medi-Covid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHP86FCWXM;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				INFOPLIST_FILE = "Medi-Covid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nawinz.Medi-Covid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A254A102423247F0090DB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509FD4351ACF790602BBD25F /* Pods-Medi-CovidTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Medi-CovidTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nawinz.Medi-CovidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medi-Covid.app/Medi-Covid";
+			};
+			name = Debug;
+		};
+		8A254A112423247F0090DB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25233AA6BD72F2E4D64FE4DB /* Pods-Medi-CovidTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Medi-CovidTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nawinz.Medi-CovidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medi-Covid.app/Medi-Covid";
+			};
+			name = Release;
+		};
+		8A254A132423247F0090DB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2F11AB6F5023E8CF3264F9 /* Pods-Medi-Covid-Medi-CovidUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Medi-CovidUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nawinz.Medi-CovidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Medi-Covid";
+			};
+			name = Debug;
+		};
+		8A254A142423247F0090DB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61158AAA380FEDA03119B603 /* Pods-Medi-Covid-Medi-CovidUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Medi-CovidUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nawinz.Medi-CovidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Medi-Covid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A2549DD242324780090DB46 /* Build configuration list for PBXProject "Medi-Covid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A254A0A2423247F0090DB46 /* Debug */,
+				8A254A0B2423247F0090DB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A254A0C2423247F0090DB46 /* Build configuration list for PBXNativeTarget "Medi-Covid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A254A0D2423247F0090DB46 /* Debug */,
+				8A254A0E2423247F0090DB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A254A0F2423247F0090DB46 /* Build configuration list for PBXNativeTarget "Medi-CovidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A254A102423247F0090DB46 /* Debug */,
+				8A254A112423247F0090DB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A254A122423247F0090DB46 /* Build configuration list for PBXNativeTarget "Medi-CovidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A254A132423247F0090DB46 /* Debug */,
+				8A254A142423247F0090DB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A2549DA242324780090DB46 /* Project object */;
+}

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Taviraj-Bold.ttf">
+            <string>Taviraj-Bold</string>
+        </array>
+        <array key="Taviraj-Regular.ttf">
+            <string>Taviraj-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PreventationHeaderCell" rowHeight="461" id="KGk-i7-Jjw" customClass="PreventationHeaderCell" customModule="Medi_Covid" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="461"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="367" height="461"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAX-rB-1Tg">
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="461"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID-19" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQQ-W1-hTs">
+                                <rect key="frame" x="24" y="16" width="327" height="15.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="13"/>
+                                <color key="textColor" red="0.083576962435616381" green="0.58302119006849318" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symptoms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jyH-jo-HAa">
+                                <rect key="frame" x="24" y="35.5" width="327" height="30.5"/>
+                                <fontDescription key="fontDescription" name="Taviraj-Bold" family="Taviraj" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rd1-RK-pa0">
+                                <rect key="frame" x="24" y="74" width="319" height="136"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="covid-doctor1" translatesAutoresizingMaskIntoConstraints="NO" id="3Fr-OT-zoI">
+                                        <rect key="frame" x="8" y="8" width="120" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="EU0-P2-s4W"/>
+                                            <constraint firstAttribute="width" constant="120" id="zkQ-Pg-ouJ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jdm-kf-o6V">
+                                        <rect key="frame" x="136" y="46.5" width="175" height="31.5"/>
+                                        <string key="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45.</string>
+                                        <fontDescription key="fontDescription" name="Taviraj-Regular" family="Taviraj" pointSize="9"/>
+                                        <color key="textColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sneezing." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39Y-W1-hZz">
+                                        <rect key="frame" x="136" y="16" width="175" height="22.5"/>
+                                        <fontDescription key="fontDescription" name="Taviraj-Bold" family="Taviraj" pointSize="19"/>
+                                        <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.082352941176470587" green="0.58431372549019611" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="39Y-W1-hZz" firstAttribute="top" secondItem="Rd1-RK-pa0" secondAttribute="top" constant="16" id="40e-29-P1M"/>
+                                    <constraint firstAttribute="trailing" secondItem="39Y-W1-hZz" secondAttribute="trailing" constant="8" id="FkC-fh-pMp"/>
+                                    <constraint firstItem="39Y-W1-hZz" firstAttribute="leading" secondItem="3Fr-OT-zoI" secondAttribute="trailing" constant="8" id="IWV-Bf-kAp"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jdm-kf-o6V" secondAttribute="trailing" constant="8" id="JxY-Ac-vbz"/>
+                                    <constraint firstItem="3Fr-OT-zoI" firstAttribute="top" secondItem="Rd1-RK-pa0" secondAttribute="top" constant="8" id="NzF-eR-UUH"/>
+                                    <constraint firstAttribute="bottom" secondItem="3Fr-OT-zoI" secondAttribute="bottom" constant="8" id="UMD-KF-MVy"/>
+                                    <constraint firstItem="Jdm-kf-o6V" firstAttribute="leading" secondItem="3Fr-OT-zoI" secondAttribute="trailing" constant="8" id="eA8-ap-9cw"/>
+                                    <constraint firstItem="3Fr-OT-zoI" firstAttribute="leading" secondItem="Rd1-RK-pa0" secondAttribute="leading" constant="8" id="o2g-Gf-86m"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Jdm-kf-o6V" secondAttribute="bottom" constant="16" id="q8U-Qt-Qsv"/>
+                                    <constraint firstItem="Jdm-kf-o6V" firstAttribute="top" secondItem="39Y-W1-hZz" secondAttribute="bottom" constant="8" id="smS-Vw-NB5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IS4-8Z-Vmu">
+                                <rect key="frame" x="24" y="218" width="155.5" height="227"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="covid-doctors" translatesAutoresizingMaskIntoConstraints="NO" id="j5l-si-B2c">
+                                        <rect key="frame" x="43" y="8" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="iuW-0L-nZv"/>
+                                            <constraint firstAttribute="height" constant="70" id="oDo-FV-c4P"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fever" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icb-ff-Iru">
+                                        <rect key="frame" x="8" y="86" width="139.5" height="20"/>
+                                        <fontDescription key="fontDescription" name="Taviraj-Bold" family="Taviraj" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a human's body temperature goes above the normal range of 36–37° Centigrade" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjB-G9-DqF">
+                                        <rect key="frame" x="8" y="114" width="139.5" height="51.5"/>
+                                        <fontDescription key="fontDescription" name="Taviraj-Regular" family="Taviraj" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="wjB-G9-DqF" secondAttribute="bottom" constant="8" id="AZE-jA-NAo"/>
+                                    <constraint firstItem="icb-ff-Iru" firstAttribute="top" secondItem="j5l-si-B2c" secondAttribute="bottom" constant="8" id="Ctv-Kq-cTP"/>
+                                    <constraint firstItem="j5l-si-B2c" firstAttribute="centerX" secondItem="IS4-8Z-Vmu" secondAttribute="centerX" id="PaK-Pt-2EI"/>
+                                    <constraint firstAttribute="trailing" secondItem="wjB-G9-DqF" secondAttribute="trailing" constant="8" id="Snm-c0-7ho"/>
+                                    <constraint firstItem="icb-ff-Iru" firstAttribute="leading" secondItem="IS4-8Z-Vmu" secondAttribute="leading" constant="8" id="afU-bw-NgO"/>
+                                    <constraint firstAttribute="trailing" secondItem="icb-ff-Iru" secondAttribute="trailing" constant="8" id="bDa-GC-Rst"/>
+                                    <constraint firstItem="wjB-G9-DqF" firstAttribute="leading" secondItem="IS4-8Z-Vmu" secondAttribute="leading" constant="8" id="gcd-la-QUL"/>
+                                    <constraint firstItem="wjB-G9-DqF" firstAttribute="top" secondItem="icb-ff-Iru" secondAttribute="bottom" constant="8" id="mBa-hM-kkh"/>
+                                    <constraint firstItem="j5l-si-B2c" firstAttribute="top" secondItem="IS4-8Z-Vmu" secondAttribute="top" constant="8" id="zQx-tn-mWc"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GiZ-a9-VYH">
+                                <rect key="frame" x="187.5" y="218" width="155.5" height="227"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover-doctor2" translatesAutoresizingMaskIntoConstraints="NO" id="nRk-Ik-XAL">
+                                        <rect key="frame" x="43" y="8" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="6c6-R1-WYF"/>
+                                            <constraint firstAttribute="width" constant="70" id="aIh-Ub-scu"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a human's body temperature goes above the normal range of 36–37° Centigrade" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGd-BG-E3e">
+                                        <rect key="frame" x="8" y="114" width="139.5" height="51.5"/>
+                                        <fontDescription key="fontDescription" name="Taviraj-Regular" family="Taviraj" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dry Cough" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3FR-zY-Rn1">
+                                        <rect key="frame" x="8" y="86" width="139.5" height="20"/>
+                                        <fontDescription key="fontDescription" name="Taviraj-Bold" family="Taviraj" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="YGd-BG-E3e" firstAttribute="leading" secondItem="GiZ-a9-VYH" secondAttribute="leading" constant="8" id="DQ9-X8-bpr"/>
+                                    <constraint firstItem="3FR-zY-Rn1" firstAttribute="top" secondItem="nRk-Ik-XAL" secondAttribute="bottom" constant="8" id="JlJ-2y-gJa"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="YGd-BG-E3e" secondAttribute="bottom" constant="8" id="MDL-N2-KLu"/>
+                                    <constraint firstItem="3FR-zY-Rn1" firstAttribute="leading" secondItem="GiZ-a9-VYH" secondAttribute="leading" constant="8" id="OWW-W0-fLI"/>
+                                    <constraint firstAttribute="trailing" secondItem="YGd-BG-E3e" secondAttribute="trailing" constant="8" id="PxI-C6-2Nn"/>
+                                    <constraint firstItem="nRk-Ik-XAL" firstAttribute="top" secondItem="GiZ-a9-VYH" secondAttribute="top" constant="8" id="YLF-p9-RRv"/>
+                                    <constraint firstAttribute="trailing" secondItem="3FR-zY-Rn1" secondAttribute="trailing" constant="8" id="dIw-GG-sck"/>
+                                    <constraint firstItem="YGd-BG-E3e" firstAttribute="top" secondItem="3FR-zY-Rn1" secondAttribute="bottom" constant="8" id="hp1-7J-TbC"/>
+                                    <constraint firstItem="nRk-Ik-XAL" firstAttribute="centerX" secondItem="GiZ-a9-VYH" secondAttribute="centerX" id="weS-h0-hmw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="IS4-8Z-Vmu" firstAttribute="leading" secondItem="bAX-rB-1Tg" secondAttribute="leading" constant="24" id="1BW-AN-v3F"/>
+                            <constraint firstItem="Rd1-RK-pa0" firstAttribute="leading" secondItem="bAX-rB-1Tg" secondAttribute="leading" constant="24" id="2ir-fI-2vC"/>
+                            <constraint firstItem="GiZ-a9-VYH" firstAttribute="leading" secondItem="IS4-8Z-Vmu" secondAttribute="trailing" constant="8" id="3Vb-Id-IQJ"/>
+                            <constraint firstAttribute="trailing" secondItem="GiZ-a9-VYH" secondAttribute="trailing" constant="24" id="6XU-rE-8lb"/>
+                            <constraint firstItem="NQQ-W1-hTs" firstAttribute="leading" secondItem="bAX-rB-1Tg" secondAttribute="leading" constant="24" id="Awk-vL-E3J"/>
+                            <constraint firstItem="Rd1-RK-pa0" firstAttribute="top" secondItem="jyH-jo-HAa" secondAttribute="bottom" constant="8" id="HMR-RE-1bz"/>
+                            <constraint firstAttribute="trailing" secondItem="Rd1-RK-pa0" secondAttribute="trailing" constant="24" id="KcW-tt-HNq"/>
+                            <constraint firstItem="jyH-jo-HAa" firstAttribute="leading" secondItem="bAX-rB-1Tg" secondAttribute="leading" constant="24" id="MJ2-gB-0Xq"/>
+                            <constraint firstItem="IS4-8Z-Vmu" firstAttribute="top" secondItem="Rd1-RK-pa0" secondAttribute="bottom" constant="8" id="OYA-4E-6Bn"/>
+                            <constraint firstItem="jyH-jo-HAa" firstAttribute="top" secondItem="NQQ-W1-hTs" secondAttribute="bottom" constant="4" id="S4Y-B1-dlp"/>
+                            <constraint firstItem="IS4-8Z-Vmu" firstAttribute="width" secondItem="GiZ-a9-VYH" secondAttribute="width" id="Sa5-Kb-XU4"/>
+                            <constraint firstItem="GiZ-a9-VYH" firstAttribute="top" secondItem="Rd1-RK-pa0" secondAttribute="bottom" constant="8" id="l1D-Zo-S13"/>
+                            <constraint firstItem="NQQ-W1-hTs" firstAttribute="top" secondItem="bAX-rB-1Tg" secondAttribute="top" constant="16" id="tGk-ne-fY8"/>
+                            <constraint firstAttribute="bottom" secondItem="IS4-8Z-Vmu" secondAttribute="bottom" constant="16" id="tob-Fr-Yau"/>
+                            <constraint firstAttribute="trailing" secondItem="NQQ-W1-hTs" secondAttribute="trailing" constant="16" id="use-oO-6TH"/>
+                            <constraint firstAttribute="trailing" secondItem="jyH-jo-HAa" secondAttribute="trailing" constant="16" id="xbm-lx-pm1"/>
+                            <constraint firstAttribute="bottom" secondItem="GiZ-a9-VYH" secondAttribute="bottom" constant="16" id="zhZ-R5-Uxg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bAX-rB-1Tg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="3zh-AK-sWT"/>
+                    <constraint firstAttribute="trailing" secondItem="bAX-rB-1Tg" secondAttribute="trailing" id="7IJ-O6-Zgp"/>
+                    <constraint firstAttribute="bottom" secondItem="bAX-rB-1Tg" secondAttribute="bottom" id="s7l-Dv-On7"/>
+                    <constraint firstItem="bAX-rB-1Tg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="wyr-si-GTP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mainBannerView" destination="Rd1-RK-pa0" id="EKp-NR-FZ8"/>
+                <outlet property="subFirstView" destination="IS4-8Z-Vmu" id="K9b-x9-PDF"/>
+                <outlet property="subSecondView" destination="GiZ-a9-VYH" id="nVG-Ca-HAx"/>
+            </connections>
+            <point key="canvasLocation" x="170.28985507246378" y="280.24553571428572"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cover-doctor2" width="779" height="1003"/>
+        <image name="covid-doctor1" width="670" height="938"/>
+        <image name="covid-doctors" width="1045" height="1044"/>
+    </resources>
+</document>
